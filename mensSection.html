@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .body {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        justify-content: space-evenly;
+      }
+      .body > div:first-child > div {
+        display: flex;
+      }
+      .body > div:last-child > div {
+        display: flex;
+      }
+      h3{
+          font-size: 25px;
+         margin-bottom: -20px;
+      }
+      h3+p{
+          color:grey;
+          font-size: 20px;
+          margin-bottom: -10px;
+      }
+      p{
+
+      }
+      .body>div>div>p:first-child{
+          font-weight: bold;
+          font-size: 20px;
+          margin-right: 10px;
+      }
+      .body>div>div>p:nth-child(2){
+        text-decoration: line-through;
+        font-size: 20px;
+          margin-right: 10px;
+      }
+      .body>div>div>p+p+p{
+          color:green;
+          font-size: 20px;
+          margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="body">
+      <div>
+        <img
+          src="pause.PNG"
+          alt="error"
+        />
+        <h3>Pause</h3>
+        <p>Men Cotton Long Sleeves Shrug</p>
+        <div>
+          <p>₹ 359</p>
+          <p>₹1,499</p>
+          <p>-76%</p>
+        </div>
+      </div>
+      <div>
+        <img
+          src="jubination.PNG"
+          alt="error"
+        />
+        <h3>JUBINATION</h3>
+        <p>Men Wool Sleeveless Sweater Pack Of 1</p>
+        <div>
+          <p>₹ 799</p>
+          <p>₹1,499</p>
+          <p>-47%</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
