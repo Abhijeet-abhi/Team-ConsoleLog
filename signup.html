@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+
+        body>div{
+            width: 25%;
+            height: 280px;
+            display:flex;
+        justify-content: center;
+        
+           margin-top: 100px;
+            /* margin-left: 560px; */
+            /* margin-top: 70px; */
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+        form{
+            margin: auto;
+        }
+        label{
+            font-size: 21px;
+        }
+        input[type="text"]
+        {
+            margin-top: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 8px;
+            border-radius: 5px;
+        }
+        input[type="number"]
+        {
+            margin-top: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 8px;
+            border-radius: 5px;
+        }
+        input[type="submit"]
+        {
+            margin-top: 10px;
+            width: 70%;
+            box-sizing: border-box;
+            padding: 8px;
+            border-radius: 5px;
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <form>
+    <label>Email</label><br>
+    <input id="mail" type="text" placeholder="Enter Email"><br><br>
+    <label>Password</label><br>
+    <input id="pass" type="number" placeholder="Enter Password"><br><br>
+    <input type="submit">
+</form>
+</div>
+</body>
+</html>
