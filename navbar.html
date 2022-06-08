@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        #navbar{
+    display: flex;
+    justify-content:space-between;
+    /* border:1px solid blue; */
+    background-color:#1c2a38;
+    color:white;
+    border-radius:15px;
+}
+div>:first-child{
+    margin-left:10px;
+}
+div:last-child{
+    display:flex;
+    width:35%;
+    /* border:1px solid red; */
+    justify-content: space-evenly;  
+}
+h4:hover{
+    background-color:#00bcd4;
+    color:black;
+    border-radius:20px;
+}
+    </style>
+</head>
+<body>
+    <div  id="navbar">
+
+    </div>
+</body>
+</html>
+<script>
+let div1=document.createElement("div");
+let x=document.createElement("h4");
+x.innerText="Reebok";
+div1.append(x)
+let div2=document.createElement("div");
+let y=document.createElement("h4");
+y.innerText="Men";
+let z=document.createElement("h4");
+z.innerText="Women";
+let z1=document.createElement("h4");
+z1.innerText="Login";
+let z2=document.createElement("h4");
+z2.innerText="Signup";
+div2.append(y,z,z1,z2);
+
+document.querySelector("#navbar").append(div1,div2);
+</script>
